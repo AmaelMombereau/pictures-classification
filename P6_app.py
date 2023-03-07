@@ -17,7 +17,7 @@ def load_model_and_class_names():
 
 def load_image(img):
     """ transform into array and preprocess image """
-    img = img.resize((299,299), Image.ANTIALIAS)
+    img = img.resize((299,299))
     img_tensor = image.img_to_array(img)
     img_tensor = np.expand_dims(img_tensor, axis=0)
     img_tensor = preprocess_input(img_tensor)
