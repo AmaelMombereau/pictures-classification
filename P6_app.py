@@ -11,7 +11,7 @@ from tensorflow.keras.models import load_model
 @st.cache(allow_output_mutation=True)
 def load_model_and_class_names():
     """ Load model and class_names"""
-    model = load_model("./models/xception_hypermodel.h5", compile=False)
+    model = load_model("./models/xception_hypermodel_tuned.h5", compile=False)
     class_names = pickle.load(open("./models/class_names.save", "rb"))
     return model, class_names
 
