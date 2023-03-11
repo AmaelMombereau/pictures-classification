@@ -50,7 +50,7 @@ def main():
             submit_placeholder.empty()
             img_tensor = load_image(img)
             res = get_prediction(model=model, img=img_tensor, class_names=class_names)
-            success.success("Breed: {}".format(res))
+            success.success("{}".format(res))
 
 if __name__ == "__main__":
     main()
