@@ -29,6 +29,6 @@ dataset [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 ```pip install -r requrements.txt```
 
 2.  Lancer de l'application streamlit:
-```streamlit run 6_02_app.py```
+```streamlit run P6_app.py```
 
-3.  Ouvrir uen fenêtre de navigateur avec l'URL ```http://localhost:8501```
+3.  Ouvrir une fenêtre de navigateur avec l'URL ```http://localhost:8501```
