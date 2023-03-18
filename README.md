@@ -16,19 +16,3 @@ Nous avons finalement sélectionné le modèle le plus performant: Xception
 
 Le meileur modèle a été par la intégré dans un démonstrarteur développé à l'aide du framework [Streamlit](https://streamlit.io).
 
-## Contenu du repositiry:
-
-*  Une application streamlit 
-*  Une présentation du projet
-
-## Données: 
-dataset [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)
-
-## Mode d'emploi pour le lancement de l'application
-1.  Installer des librairies utilisées pour les projet : 
-```pip install -r requrements.txt```
-
-2.  Lancer de l'application streamlit:
-```streamlit run P6_app.py```
-
-3.  Ouvrir une fenêtre de navigateur avec l'URL ```http://localhost:8501```
