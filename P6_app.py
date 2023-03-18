@@ -1,12 +1,12 @@
+import base64
 import time
 import pickle
-import base64
 import streamlit as st
 import numpy as np
 from PIL import Image 
 from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.xception import preprocess_input
 from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.xception import preprocess_input
 
 @st.cache(allow_output_mutation=True)
 def load_model_and_class_names():
