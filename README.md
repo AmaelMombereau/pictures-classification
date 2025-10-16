@@ -1,18 +1,18 @@
-## Introduction
+## Project Description (English version)
 
-Le projet de ce notebook a été réalisé dans le cadre de la [formation d'ingénieur machine learning proposé par Openclassrooms](https://openclassrooms.com/fr/paths/148-ingenieur-machine-learning).
+This project was developed as part of the Machine Learning Engineer program offered by OpenClassrooms.
 
-Il porte sur la classification de race de chien à partir d’image. Nous allons comparer différents modèles de computer vision from scratch ou par transfer learning.
-Nous avons utilisé le dataset [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/). Ce dernier est constitué de 20 580 images de chiens triées en 120 classes relatives à leur race. Chaque race a entre 150 et 200 photos.
+It focuses on dog breed classification from images using deep learning techniques. The objective was to compare different computer vision models — both trained from scratch and through transfer learning — using the Stanford Dogs dataset, which contains 20,580 images across 120 dog breeds (each with 150–200 photos).
 
-Pour les modèles from scratch, nous avons procédé de la sorte:
+For the models built from scratch, we implemented:
 
-1.  Modèle initial avec préprocessing et ajout d'optimisations (batchnormalization, ...)
-2.  Implémentation de l’augmentation de données
-3.  Optimisation du modèle en appronfondissant le réseau et y en ajoutant des doubles couches convolutionnelles ainsi qu’un dropout() 
+An initial CNN model with preprocessing and optimizations (e.g., Batch Normalization)
 
-Nous avons ensuite testé deux modèles de transfer learning: Resnet50 et Xception, sans et avec optimisation des hyperparamètres.
-Nous avons finalement sélectionné le modèle le plus performant: Xception 
+Data augmentation techniques
 
-Le meileur modèle a été par la intégré dans un démonstrarteur développé à l'aide du framework [Streamlit](https://streamlit.io).
+Network improvements with deeper layers, double convolutional blocks, and Dropout regularization
+
+We then experimented with two transfer learning models, ResNet50 and Xception, with and without hyperparameter tuning. The best-performing model, Xception, was integrated into a Streamlit demo app for visualization and testing.
+
+demonstration: [Streamlit](https://streamlit.io).
 
